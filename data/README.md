@@ -1,6 +1,6 @@
-# Authorization benchmark
+# BAC-Bench
 
-The benchmark is an index of 30 disclosed broken access control advisories in 25 web applications. It contains no copies of the applications. Each record points to an upstream repository, a commit where the specified defect was present, and a commit that fixed it.
+BAC-Bench is an index of 30 disclosed broken access control advisories in 25 web applications. It contains no copies of the applications. Each record points to an upstream repository, a commit where the specified defect was present, and a commit that fixed it.
 
 [`authz_instances.jsonl`](authz_instances.jsonl) is the full dataset and source of truth. It has one JSON object per line. [`instances.csv`](instances.csv) is a compact index derived from it for browsing; fields with longer explanations and source locations remain in the JSONL.
 
